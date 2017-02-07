@@ -76,4 +76,18 @@
 
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.5.0</version>
+				<configuration>
+					<mainClass>SdpMain</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
 </project>
